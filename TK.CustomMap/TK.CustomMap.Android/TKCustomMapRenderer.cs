@@ -56,8 +56,7 @@ namespace TK.CustomMap.Droid
             get { return this.Element as IMapFunctions; }
         }
 
-        /// <inheritdoc />
-        protected override void OnElementChanged(ElementChangedEventArgs<View> e)
+          protected override void OnElementChanged(ElementChangedEventArgs<Map> e)
         {
             base.OnElementChanged(e);
 
